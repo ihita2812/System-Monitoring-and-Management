@@ -1,3 +1,6 @@
+mod monitor;
+
 fn main() {
-    println!("Hello, world!");
+    println!("System Monitoring Tool");
+    monitor::print_system_stats();
 }

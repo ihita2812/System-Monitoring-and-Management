@@ -1,6 +1,10 @@
 [package]
-name = "system-monitoring-and-management"
+name = "system_monitor"
 version = "0.1.0"
-edition = "2021"
+authors = ["Ihita Sinha"]
+edition = "2024"
 
 [dependencies]
+sysinfo = "0.29"  # For system info
+walkdir = "2.3"   # For directory traversal (for file monitoring)
+serde = { version = "1.0", features = ["derive"] } # Serialization
